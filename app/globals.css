@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .bgwhite_bgdark {
+    @apply dark:bg-[#0B090A] bg-[#F4F6FF];
+  }
+
+  .textwhite_textdark {
+    @apply dark:text-[#F4F6FF] text-[#0B090A];
+  }
+}
